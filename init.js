@@ -1,10 +1,13 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyAjpNlWtDUmia_PCPDqyiIEhX-7Lj17p3I",
-    authDomain: "soateofigma.firebaseapp.com",
-    projectId: "soateofigma",
-    storageBucket: "soateofigma.appspot.com",
-    messagingSenderId: "556930160292",
-    appId: "1:556930160292:web:ff3197df432c4f38f3f831"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const button = document.querySelector('#button')
+
+button.addEventListener('click', () => {
+    const email = document.querySelector('#email').value
+    const senha = document.querySelector('#password').value
+
+    if (email == 'pedrolucca.luciano@gmail.com' && senha == 'lucca1') {
+        window.location = 'coordenador.html'
+    }
+    if (email == 'pedrolucca.luciano2@gmail.com' && senha == 'lucca2') {
+        window.location = 'bolsista.html'
+    }
+})

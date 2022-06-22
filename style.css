@@ -41,13 +41,13 @@
     text-decoration: none;
     color: white;
     position: relative;
-    left: 11rem;
+    left: 17rem;
 }
 
 .letras .b {
     text-decoration: none;
     color: white;
-    left: 12rem;
+    left: 20rem;
     position: relative;
 }
 
@@ -77,14 +77,14 @@
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
-    gap:7%;
+    gap: 7%;
     overflow-y: scroll;
     justify-content: flex-start;
     align-items: center;
     margin-left: 3.5%;
     /* background-color: red; */
     position: fixed;
-    bottom:34%;
+    bottom: 34%;
 }
 
 ::-webkit-scrollbar {
@@ -134,9 +134,9 @@
     background-color: D9D9D9;
     padding-left: 1px;
     padding-top: 20px;
-    height: 50px;
-    width: 300px;
-    padding-left: 2%;
+    height: 9%;
+    width: 30%;
+    padding-left: 7%;
 }
 
 .txt3 {
@@ -158,11 +158,13 @@
 
 .texto-cad {
     font-size: 2rem;
-    color: #00538F;
+    color: #165028;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 8%;
+    /* justify-content: flex-end; */
     /* margin-top: 5%; */
+    left: 3.4%;
+    position: relative;
+    top: 1%
 }
 
 .container1 {
@@ -174,12 +176,19 @@
 }
 
 .boxcad {
-    position: fixed;
-    width: 625px;
-    height: 601px;
+    position: absolute;
+    width: 70%;
+    height: 42rem;
     background: #E9EFE6;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-around; */
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    left: 3%;
+    top: 16%;
+
 }
 
 .footer {
@@ -221,7 +230,8 @@
     width: 30%;
 
 }
-.box-coordenador2{
+
+.box-coordenador2 {
     width: 92.7%;
     height: 72%;
     /* position: fixed; */
@@ -235,11 +245,12 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 3.5%;
-    background-color: #fff;  
+    background-color: #fff;
     gap: 0;
-    
+
 }
-.texto-coordenador2{
+
+.texto-coordenador2 {
     font-size: 2rem;
     color: #165028;
     /* margin: 55px; */
@@ -247,9 +258,10 @@
     padding-top: 5%;
     position: relative;
     top: -5%;
-    
+
 }
-.adamo{
+
+.adamo {
     width: 100%;
     background-color: #2D4E33;
     height: 16.6%;
@@ -257,69 +269,151 @@
     align-content: center;
     display: flex;
 }
+
 .eduardo {
     width: 100%;
     height: 16.6%;
     background-color: rgba(121, 164, 126, 0.3);
 }
-.fabio{
-    width: 100%;
-    height:16.6%;
-    background-color:#2D4E33;
-}
-.ivoS2{
-    width: 100%;
-    height: 16.6%;
-    background-color: rgba(121, 164, 126, 0.3);
-}
-.marco{
+
+.fabio {
     width: 100%;
     height: 16.6%;
     background-color: #2D4E33;
 }
-.rojas{
+
+.ivoS2 {
     width: 100%;
     height: 16.6%;
     background-color: rgba(121, 164, 126, 0.3);
 }
-.perfil-cord{
-    position: absolute;
-    
+
+.marco {
+    width: 100%;
+    height: 16.6%;
+    background-color: #2D4E33;
 }
-.nome-adamo{
+
+.rojas {
+    width: 100%;
+    height: 16.6%;
+    background-color: rgba(121, 164, 126, 0.3);
+}
+
+.perfil-cord {
+    position: absolute;
+
+}
+
+.nome-adamo {
     left: 8%;
     top: 35%;
     position: relative;
     color: #fff;
 }
-.nome-eduardo{
+
+.nome-eduardo {
     left: 8%;
     top: 35%;
     position: relative;
     color: #165028;
 }
-.nome-fabio{
+
+.nome-fabio {
     left: 8%;
     top: 35%;
     position: relative;
     color: #fff;
 
 }
-.nome-ivo{
+
+.nome-ivo {
     left: 8%;
     top: 35%;
     position: relative;
     color: #165028;
 }
-.nome-marco{
+
+.nome-marco {
     left: 8%;
     top: 34%;
     position: relative;
     color: #fff;
 }
-.nome-rojas{
+
+.nome-rojas {
     left: 8%;
     top: 35%;
     position: relative;
     color: #165028;
+}
+
+label {
+    font-size: 20px;
+}
+
+.boxd {
+    left: 8%;
+    position: relative;
+    top: 5%;
+}
+
+.input1 {
+    padding: 0 5px;
+    height: 1.75rem;
+    width: 82%;
+    border-radius: 5px;
+    border-color: #165028;
+    background-color: #fff;
+    font-size: 1.125em;
+}
+
+#inputx {
+    display: block;
+}
+
+.input2 {
+    border-radius: 5px;
+    font-size: 1.125em;
+    padding: 5px;
+    border-color: #165028;
+}
+
+.input3 {
+    padding: 0 5px;
+    border-radius: 5px;
+    width: 22%;
+    border-color: #165028;
+    height: 2rem;
+}
+
+.input4 {
+    padding: 0 5px;
+    border-radius: 5px;
+    width: 22%;
+    border-color: #165028;
+    height: 2rem;
+
+}
+
+.boxd1 {
+    position: relative;
+    left: 67%;
+    bottom: 4%;
+}
+
+.input5 {
+    padding: 0 5px;
+    height: 1.75rem;
+    width: 82%;
+    border-radius: 5px;
+    border-color: #165028;
+    background-color: #fff;
+    font-size: 1.125em;
+    position: relative;
+}
+
+.boxd2 {
+    position: relative;
+    left: 8%;
 }
