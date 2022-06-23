@@ -177,7 +177,7 @@
 
 .boxcad {
     position: absolute;
-    width: 70%;
+    width: 120vh;
     height: 42rem;
     background: #E9EFE6;
     /* display: flex; */
@@ -377,6 +377,7 @@ label {
     font-size: 1.125em;
     padding: 5px;
     border-color: #165028;
+    /* background-color: #E9EFE6; */
 }
 
 .input3 {
@@ -398,7 +399,7 @@ label {
 
 .boxd1 {
     position: relative;
-    left: 67%;
+    left: 81.5vh;
     bottom: 4%;
 }
 
@@ -415,5 +416,14 @@ label {
 
 .boxd2 {
     position: relative;
-    left: 8%;
+    left: 9.5VH;
+    width: 122VH;
+}
+.botaoprojeto{
+    width: 60vh;
+    background-color: #165028;
+    top: 10vh;
+    height:12vh;
+    position: relative;
+    left:95vh
 }
