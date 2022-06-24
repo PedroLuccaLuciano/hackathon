@@ -21,20 +21,15 @@
 }
 
 #perfil {
-    /* padding-left: 40%; */
     padding-top: 0.5%;
     position: relative;
-    ;
-    /* background-color: yellow; */
     width: 1%;
     color: white;
 }
 
 .letras {
-    /* background-color: blue; */
     width: 30%;
     font-size: 1.6rem;
-    /* background-color: yellow; */
 }
 
 .letras .a {
@@ -71,18 +66,13 @@
 .box-coordenador {
     width: 100%;
     height: 40%;
-    /* position: fixed; */
-    /* left: 5%; */
-    /* top:15%; */
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     gap: 7%;
     overflow-y: scroll;
     justify-content: flex-start;
     align-items: center;
     margin-left: 3.5%;
-    /* background-color: red; */
     position: fixed;
     bottom: 34%;
 }
@@ -96,9 +86,6 @@
     height: 180px;
     background-color: #E9EFE6;
     border-radius: 20px;
-    /* position: relative; */
-    /* left: 10%;    */
-    /* top  : 1%; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -114,16 +101,9 @@
     justify-items: center;
 }
 
-.imgcad {
-    /* position: relative;
-    top: 45%;
-    left: 40%; */
-}
-
 .txt2 {
     position: relative;
     top: 35%;
-    /* left: 10%; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -140,9 +120,6 @@
 }
 
 .txt3 {
-    /* position: relative; */
-    /* top: 4.5rem; */
-    /* left: 3.55rem; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -150,18 +127,10 @@
     color: #165028;
 }
 
-.img-alocar {
-    /* position: relative;
-    top: 6rem;
-    left: 5rem; */
-}
-
 .texto-cad {
     font-size: 2rem;
     color: #165028;
     display: flex;
-    /* justify-content: flex-end; */
-    /* margin-top: 5%; */
     left: 3.4%;
     position: relative;
     top: 1%
@@ -180,10 +149,7 @@
     width: 120vh;
     height: 42rem;
     background: #E9EFE6;
-    /* display: flex; */
-    /* flex-direction: column; */
     align-items: center;
-    /* justify-content: space-around; */
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     left: 3%;
@@ -201,7 +167,6 @@
 
 .logo {
     width: 50%;
-    /* background-color: red; */
 }
 
 .logologin {
@@ -220,25 +185,20 @@
     padding-left: 3.6%;
 }
 
-.button {
-    padding-top: 100px;
-    left: 35%;
-    position: relative;
+.btn1 {
+    width: 15%;
+    height: 30%;
+    padding: 15px 30px;
+    border: none;
+    background-color: #165028;
+    color: #fff;
 }
 
-#button {
-    width: 30%;
-
-}
 
 .box-coordenador2 {
     width: 92.7%;
     height: 72%;
-    /* position: fixed; */
-    /* left: 5%; */
-    /* top:15%; */
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     gap: 3%;
     overflow-y: scroll;
@@ -253,7 +213,6 @@
 .texto-coordenador2 {
     font-size: 2rem;
     color: #165028;
-    /* margin: 55px; */
     padding-left: 3.6%;
     padding-top: 5%;
     position: relative;
@@ -377,7 +336,6 @@ label {
     font-size: 1.125em;
     padding: 5px;
     border-color: #165028;
-    /* background-color: #E9EFE6; */
 }
 
 .input3 {
@@ -419,11 +377,57 @@ label {
     left: 9.5VH;
     width: 122VH;
 }
-.botaoprojeto{
-    width: 60vh;
+
+.botaoprojeto {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.esqueceu {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.boxhome1 {
+    width: 400px;
+    height: 250px;
     background-color: #165028;
-    top: 10vh;
-    height:12vh;
-    position: relative;
-    left:95vh
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.boxhome2 {
+    width: 400px;
+    height: 250px;
+    background-color: #165028;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.conthome {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.textlog {
+    color: #165028;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
